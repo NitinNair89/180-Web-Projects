@@ -1,0 +1,13 @@
+.navbar-brand {
+  font-family: 'Teko', sans-serif;
+  font-size: 1.7rem;
+}
+.navbar-toggler {
+  background-color: teal;
+  color: white;
+}
+.nav-item a:hover {
+  background: tomato;
+  color: white;
+  border-radius: 5px;
+}

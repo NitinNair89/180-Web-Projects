@@ -1,0 +1,11 @@
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+#featured-span-head {
+  background-color: tomato;
+  margin-bottom: 5px;
+  padding: 7px 10px;
+  display: inline-block;
+  border-radius: 3px;
+}

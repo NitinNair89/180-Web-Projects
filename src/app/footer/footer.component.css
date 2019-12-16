@@ -1,0 +1,11 @@
+footer {
+  background: rgb(233, 236, 239);
+  color: black;
+  margin-top: 10px;
+}
+footer h5 {
+  color: tomato;
+}
+footer a {
+color: darkcyan;
+}
