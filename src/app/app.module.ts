@@ -6,13 +6,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FeaturedSiteComponent } from './featured-site/featured-site.component';
 import { FooterComponent } from './footer/footer.component';
 import { LatestSiteService } from './latest-site.service';
-import { SideNavComponent } from './side-nav/side-nav.component';
 import { MainCardsComponent } from './main-cards/main-cards.component';
 import { MainCardsService } from './main-cards.service';
 
 @NgModule({
   imports: [BrowserModule, NgbModule.forRoot() ],
-  declarations: [AppComponent, NavbarComponent, FeaturedSiteComponent, FooterComponent, SideNavComponent, MainCardsComponent],
+  declarations: [AppComponent, NavbarComponent, FeaturedSiteComponent, FooterComponent, MainCardsComponent],
   bootstrap: [AppComponent],
   providers: [LatestSiteService, MainCardsService]
 })
