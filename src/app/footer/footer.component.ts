@@ -6,5 +6,5 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-  copyrightYear = '2018'
+  copyrightYear = new Date().getFullYear();
 }
