@@ -1,0 +1,11 @@
+.logo {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  background-image: url('./logo.png');
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
